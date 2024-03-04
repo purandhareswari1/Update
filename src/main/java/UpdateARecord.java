@@ -23,7 +23,7 @@ public class UpdateARecord {
      *  |   id  |     firstname        |        lastname        |
      *  ----------------------------------------------------------
      *  |1      |'Steve'               |'Garcia'                |
-     *  |2      |'Alexa'               |'Smith'                 |
+     *  |2      |'Alexa'               |'Rush'                 |
      *  |3      |'Steve'               |'Jones'                 |
      *  |4      |'Brandon'             |'Smith'                 |
      *  |5      |'Adam'                |'Jones'                 |
@@ -34,6 +34,9 @@ public class UpdateARecord {
         /**
          * Problem 1: Update Alexa's last name to be 'Rush' in the site_user table.
          */
+
+        
+
         String sql = FileUtil.parseSQLFile("problem1.sql");
 
         try {
